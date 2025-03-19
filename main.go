@@ -415,5 +415,5 @@ func main() {
 	app.Get("/series", ServeSeriesHome)
 	app.Get("/series/:series/:article", ServeSeriesArticle)
 
-	log.Fatal(app.Listen(":8080"))
+	log.Fatal(app.Listen(":7080"))
 }
